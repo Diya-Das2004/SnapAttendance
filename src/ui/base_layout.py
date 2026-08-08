@@ -58,16 +58,16 @@ def style_base_layout():
             h3,h4,p{
                 font-family:'Libre-Caslon',sans-serif !important;
             }
-            button{
-                background: #0000CD !important; 
+            button[kind="primary"]{
+                background-color: #0000CD !important; 
                 border-radius: 1.5rem !important;
                 color:white !important;
                 padding:10p 20px !important;
                 border:none !important;
                 transition: transform 0.25s ease-in-out !important;
             }
-            button[kind="Secondary"]{
-                background: #EB459E !important; 
+            button[kind="secondary"]{
+                background-color: #EB459E !important; 
                 border-radius: 1.5rem !important;
                 color:white !important;
                 padding:10p 20px !important;
@@ -75,7 +75,7 @@ def style_base_layout():
                 transition: transform 0.25s ease-in-out !important;
             }
             button[kind="tertiary"]{
-                background: black !important; 
+                background-color: black !important; 
                 border-radius: 1.5rem !important;
                 color:white !important;
                 padding:10p 20px !important;

@@ -1,0 +1,23 @@
+# Python virtual environments
+venv/
+venv311/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# VS Code
+.vscode/
+
+# Environment/secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
