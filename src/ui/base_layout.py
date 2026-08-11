@@ -32,6 +32,7 @@ def style_base_layout():
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
             @import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Lilita+One&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Lilita+One&display=swap');
             #MainMenu, footer, header{
                 visibility: hidden;
             }
@@ -40,7 +41,7 @@ def style_base_layout():
             }
 
             h1{
-                font-family:'Lilita One',sans-serif !important;
+                font-family:'Archivo Black',sans-serif !important;
                 font-size: 3.5rem !important;
                 line-height:1.1 !important;
                 margin-bottom:0rem !important;
@@ -48,7 +49,7 @@ def style_base_layout():
                 text-align='center'!important;
             }
             h2{
-                font-family:'Lilita One',sans-serif !important;
+                font-family:'Archivo Black',sans-serif !important;
                 font-size: 2rem !important;
                 line-height:0.9 !important;
                 margin-bottom:0rem !important;
