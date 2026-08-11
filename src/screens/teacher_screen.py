@@ -242,7 +242,7 @@ def login_teacher(username,password):
         return True
     return False
 def teacher_screen_login():
-    c1,c2= st.columns(2,vertical_alignment='center',gap='large')
+    c1,c2= st.columns([3,2],vertical_alignment='center',gap='large')
     with c1:
         header_dashboard()
     with c2:
