@@ -18,6 +18,6 @@ def header_dashboard():
     st.markdown(f"""
         <div style=" display:flex; align-items:center: justify-content:center; gap:10px; margin-top:10px">
             <img src={logo_url} style='height:100px;'  />
-            <h2 style= 'text-align:left; color:#87CEFA'>SNAP CLASS</h2>
+            <h2 style= 'text-align:left; color:#87CEFA'>SNAP ATTENDANCE</h2>
         </div>
 """,unsafe_allow_html= True)
